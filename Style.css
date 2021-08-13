@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+/*################################ Structure de Page ######################################*/
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  flex: 0 0 90px;
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
+main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+footer {
+  flex: 0 0 90px;
+}
+/*################################ Entete ###################################################*/
+header p {
+  flex: 0 0 auto;
+  padding: 0 10px;
+  font-weight: bold;
+}
+header > p:nth-child(1) {
+  margin-right: auto;
+  font-size: 25px;
+}
+
+/*######################## Corps de Page ####################################*/
+.tag-form {
+  flex: 1 1 0;
+  margin-left: 60px;
+}
+
+.tag-form p {
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+.tag-form h1 {
+  font-size: 70px;
+  margin-top: 10px;
+}
+.web-img {
+  flex: 1 1 0;
+}
+.image-web {
+  width: 550px;
+}
+
+.input-field input,
+button {
+  width: 300px;
+  height: 38px;
+  font-size: 14px;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  background: #ebebeb;
+  outline: none;
+  padding-left: 10px;
+}
+.input-field button {
+  width: 100px;
+  height: 38px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+}
+.conditions {
+  font-size: 15px;
+  color: #bfbfbf;
+}
+/*###############Bas de page #######################################*/
+footer p {
+  margin-left: 60px;
+  font-size: 15px;
+  color: #929292;
+}
+.logo {
+  display: flex;
+}
+.foot-logo {
+  height: 50px;
+  margin-right: 50px;
+  margin-bottom: 8px;
+}
+.logo-clr {
+  fill: #808080;
+}
