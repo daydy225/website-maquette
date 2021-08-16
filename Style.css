@@ -21,7 +21,7 @@ header {
 main {
   flex: 1 0 auto;
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: row wrap;
   justify-content: center;
 }
 footer {
@@ -41,7 +41,7 @@ header > p:nth-child(1) {
 /*######################## Corps de Page ####################################*/
 .tag-form {
   flex: 1 1 0;
-  margin-left: 60px;
+  margin-left: 8%;
 }
 
 .tag-form p {
@@ -56,7 +56,7 @@ header > p:nth-child(1) {
   flex: 1 1 0;
 }
 .image-web {
-  width: 550px;
+  width: 600px;
 }
 
 .input-field input,
@@ -83,7 +83,7 @@ button {
 }
 /*###############Bas de page #######################################*/
 footer p {
-  margin-left: 60px;
+  margin-left: 8%;
   font-size: 15px;
   color: #929292;
 }
@@ -92,7 +92,7 @@ footer p {
 }
 .foot-logo {
   height: 50px;
-  margin-right: 50px;
+  margin-left: 5rem;
   margin-bottom: 8px;
 }
 .logo-clr {
